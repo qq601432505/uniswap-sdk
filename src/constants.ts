@@ -4,8 +4,7 @@ import JSBI from 'jsbi'
 export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
-  MAINNET = 65524,
-  TESTNET = 65525,
+  MAINNET = 256,
 }
 
 export enum TradeType {
